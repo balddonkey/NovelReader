@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		888FEC351EEA6FED004BA8E9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888FEC341EEA6FED004BA8E9 /* TableViewController.m */; };
 		88F0A55D1EE5354A00647018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F0A55C1EE5354A00647018 /* main.m */; };
 		88F0A5601EE5354A00647018 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F0A55F1EE5354A00647018 /* AppDelegate.m */; };
 		88F0A5631EE5354A00647018 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F0A5621EE5354A00647018 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		888FEC331EEA6FED004BA8E9 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		888FEC341EEA6FED004BA8E9 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		88F0A5581EE5354A00647018 /* Novel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F0A55C1EE5354A00647018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88F0A55E1EE5354A00647018 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 				88F0A57C1EE5355900647018 /* NovelChapter.h */,
 				88F0A57D1EE5355900647018 /* NovelChapter.m */,
 				88F0A5801EE5355900647018 /* Provider */,
+				888FEC331EEA6FED004BA8E9 /* TableViewController.h */,
+				888FEC341EEA6FED004BA8E9 /* TableViewController.m */,
 			);
 			path = Reader;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			files = (
 				88F0A58B1EE5355900647018 /* NovelCatalog.m in Sources */,
 				88F0A58E1EE5355900647018 /* NovelSearcher.m in Sources */,
+				888FEC351EEA6FED004BA8E9 /* TableViewController.m in Sources */,
 				88F0A5901EE5355900647018 /* NovelProvider.m in Sources */,
 				88F0A5941EE5380500647018 /* ReaderDefines.m in Sources */,
 				88F0A59D1EE5516900647018 /* ChapterViewController.m in Sources */,
